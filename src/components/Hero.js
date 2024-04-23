@@ -1,7 +1,9 @@
+import dish from '../imgs/Dish.png'
+
 function Hero(){
     return(
         <div className="hero">
-            Hero
+            <img src={dish} alt=''/>
         </div>
     )
 }
