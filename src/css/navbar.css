@@ -1,0 +1,74 @@
+.info-nav{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CBCBCB;
+    padding-bottom: 30px;
+}
+.icon {
+    border: 2px solid #6C5FBC;
+    border-radius: 7px;
+    transform: rotate(90deg);
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    padding: 5px;
+    color: #6C5FBC;
+    box-shadow: 3px -3px 0px #6C5FBC;
+    background-color: #DBD9EE;
+}
+
+/* .fork {
+    transform: rotate(45deg);
+}
+
+.knife {
+    transform: rotate(-45deg);
+    margin-top: -10px;
+} */
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 20px;
+    font-weight: 600;
+    color: #6C5FBC;
+    line-height: 27px;
+}
+.links{
+    margin: 0 100px 0 0;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    gap: 53.49px;
+}
+ul a{
+    color: black;
+}
+.enter{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 11.14px;
+}
+.login{
+    font-size: 18px;
+    padding: 17.83px 26.74px;
+}
+.sign{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 17.83px 26.74px;
+    background-color: #6C5FBC;
+    border-radius: 17.83px;
+}
