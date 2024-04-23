@@ -1,0 +1,6 @@
+.info-home{
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    align-items: center;
+}
