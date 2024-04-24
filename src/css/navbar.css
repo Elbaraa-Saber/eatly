@@ -9,14 +9,13 @@
 .icon {
     border: 2px solid #6C5FBC;
     border-radius: 7px;
-    transform: rotate(90deg);
     margin-right: 30px;
     font-size: 25px;
     font-weight: bold;
     display: flex;
     padding: 5px;
     color: #6C5FBC;
-    box-shadow: 3px -3px 0px #6C5FBC;
+    box-shadow: 3px 3px 0px #6C5FBC;
     background-color: #DBD9EE;
 }
 
