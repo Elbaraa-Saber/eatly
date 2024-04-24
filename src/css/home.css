@@ -116,7 +116,7 @@
     position: relative;
     top: 150px;
 }
-.hero .main-photo img{
+.hero .main-photo .main{
     position: absolute;
     right: 15px;
     top: 10px;
@@ -124,9 +124,155 @@
     height: 445px;
     opacity: 0px;
 }
-img{
-    width: 429.62px;
-    height: 443.61px;
-    opacity: 0px;
+.hero .top-img{
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 265px;
+    height: 89.45px;
+    border-radius: 17px;
+    box-shadow: -9.84px 12.3px 20.51px 0px #00000026;
+    Top: -50px;
+    right: 0;
+}
+.hero .top-img>div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero .top-img>div p:first-of-type{
+    font-family: Poppins;
+    font-size: 15.59px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    color: #323142;    
+}
+.hero .top-img>div p:last-of-type{
+    font-family: Poppins;
+    font-size: 9.84px;
+    font-weight: 500;
+    line-height: 13.78px;
+    text-align: left;
+    color: #323142;
+}
+
+.hero .top-img img{
+    width: 73.58px;
+    height: 81.12px;
+    top: 219.07px;
+    left: 1027.82px;
+    gap: 0px;
+    border-radius: 16.41px 0px 0px 0px;
+    opacity: 0px;    
+}
+.hero .top-img .time{
+    position: absolute;
+    right: 3px;
+    bottom: -15px;
+    font-family: Poppins;
+    font-size: 10.66px;
+    font-weight: 500;
+    line-height: 14.93px;
+    text-align: left;
+    color: #ACADB9;
+}
+
+
+.hero .graph{
+    width: 207.28px;
+    height: 205.48px;
+    box-shadow: 13.41px -16.76px 27.93px 0px #00000026;
+    padding: 14px 0;
+    border-radius: 17px;
+    position: absolute;
+    bottom: -70px;
+    left: -100px;
+    background-color: white;
+}
+.hero .time {
+    display: flex;
+    gap: 7px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding: 0 14px;
+}
+.hero .time div{
+    border-radius: 7px;
+    font-family: Poppins;
+    font-size: 6.39px;
+    font-weight: 400;
+    line-height: 9.13px;
+    color: white;
+    text-align: center;
+    padding: 7px 10px;
+    background-color: #6C5FBC;
+}
+.hero .lines{
+    position: absolute;
+    margin-top: 27px;
+}
+.hero .line-graph button{
+    border: none;
+    position: absolute;
+    right: 22px;
+    top: 87px;
+    background: none;
+}
+.hero .line-graph button::before{
+    content: '$409';
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-family: Poppins;
+    font-size: 5.55px;
+    font-weight: 600;
+    line-height: 8.33px;
+    text-align: left;
+    background-color: #6C5FBC;
+    padding: 2px 4px;
+    border-radius: 7px;
+    color: white;
+}
+.hero .weekly-time{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 14px;
+    margin-top: 15px;
+}
+.hero .weekly-time button{
+    background: none;
+    border: none;
+    border-radius: 16px;
+    font-family: Roboto;
+    font-size: 6.35px;
+    font-weight: 400;
+    line-height: 7.44px;
+    text-align: left;
+    color: #828282;
+}
+.hero .weekly-time button.active{
+    font-weight: 700;
+    color: black;
+    background-color: #E7E7E7EB;
+}
+
+
+.hero .collapse-first{
+    position: absolute;
+    top: -60px;
+    right: -45px;
+}
+.hero .collapse-two{
+    position: absolute;
+    bottom: -35px;
+    left: -40px;
+}
+.hero .arrow{
+    position: absolute;
+    right: -50px;
+    top: 50px;
 }
 /* End Hero image  */
