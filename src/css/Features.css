@@ -21,7 +21,7 @@
     position: absolute;
 }
 .list-container .right svg:first-of-type{
-    right: -20px;
+    right: -90px;
 }
 .list-container .left svg{
     position: absolute;
@@ -52,4 +52,5 @@
     line-height: 21.6px;
     text-align: center;
     width: 260px;
+    color: #C5BFED;
 }
