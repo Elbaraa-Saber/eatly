@@ -4,8 +4,9 @@ import Navbar from './components/Navbar';
 import ReactDOM from 'react-dom'
 import Home from './components/Home';
 import Features from './components/Features';
-import Download_app from './components/Download_app';
+import DownloadApp from './components/DownloadApp';
 import TopResturants from './components/TopResturants';
+import TopDishes from './components/TopDishes';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Navbar/>
       <Home/>
       <Features/>
-      <Download_app />
+      <DownloadApp />
       <TopResturants />
+      <TopDishes/>
     </div>
   );
 }

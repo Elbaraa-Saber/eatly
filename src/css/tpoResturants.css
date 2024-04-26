@@ -1,9 +1,7 @@
 .resturants{
     padding: 40px 0 0 0;
     border-top: 1px solid #CBCBCB;
-    /* border-bottom: 1px solid #CBCBCB; */
     margin: 100px 0;
-    text-align: center;
     position: relative;
 }
 .resturants .arrow{
@@ -34,16 +32,9 @@
     background-color: white;
     box-shadow: 5.95px 71.35px 35.67px 0px #E5E5E5B2;
     overflow: hidden;
+    border: 1.25px solid #F4F4F6
 }
-.resturants h2{
-    font-family: Poppins;
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 25.56px;
-}
-.resturants h2 span{
-    color: #6C5FBC;
-}
+
 .resturants .list .box .contain {
     padding: 10px 20px;
 }
@@ -124,4 +115,5 @@
     justify-content: space-between;
     gap: 5px;
     align-items: center;
+    color: #8E97A6;
 }
