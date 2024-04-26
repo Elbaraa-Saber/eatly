@@ -18,6 +18,11 @@
     letter-spacing: -0.10000000149011612px;
     text-align: left;
     color: #ACADB9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.resturants .arrow:hover{
+    margin-right: 20px;
 }
 .resturants .list{
     display: grid;

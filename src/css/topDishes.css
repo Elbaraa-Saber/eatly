@@ -57,6 +57,10 @@
     color: #FB471D;
     background-color: #F7C5BA;
 }
+.dishes .supreme{
+    color: #309D5B;
+    background-color: #93ebb7;
+}
 .dishes .dishesList h4{
     font-family: Poppins;
     font-size: 18.34px;
@@ -116,4 +120,25 @@
     padding: 10px;
     background-color: #323142;
     border-radius: 8px;
+}
+
+.dishes .arrow{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45.18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #ACADB9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dishes .arrow:hover{
+    margin-right: 20px;
 }

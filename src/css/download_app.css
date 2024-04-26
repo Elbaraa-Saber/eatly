@@ -73,3 +73,10 @@
 .download button svg{
     margin-left: 15px;
 }
+.download .btnandarrow{
+    position: relative;
+}
+.download .btnandarrow span{
+    position: absolute;
+    right: 60px;
+}

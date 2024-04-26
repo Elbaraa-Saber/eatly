@@ -3,11 +3,14 @@ function Dish(props){
 
     return (
         <>
-            {props.img ? <img src={props.img} alt=""/> : <div className={props.type == 'Healthy' ? "chicken img" : "bread img"}></div>  }
+            {props.img ? 
+            <img src={props.img} alt=""/> : 
+            <div className={props.type == 'Healthy' ? "chicken img" : "bread img"}></div>  }
             
             <div className="contain">
                 
-                <span className={props.type == 'Healthy' ? "healthy type" : "trending type"}>{props.type}</span>
+                <span className={props.type == 'Healthy' ? "healthy type" : 
+                props.type == 'Trending' ? "trending type" : "supreme type"}>{props.type}</span>
                 <h4>{props.title}</h4>
 
                 <div className='foot'>
