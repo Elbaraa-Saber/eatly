@@ -14,15 +14,15 @@ function Features (){
 
 
             <div className='list'>
-                <div className="one">
+                <div className="box-num one">
                     <p className='head'>10K</p>
                     <p className='desc'>Satisfied Costumers All Great Over The World</p>
                 </div>
-                <div className="two">
+                <div className="box-num two">
                     <p className='head'>4M</p>
                     <p className='desc'>Healthy Dishes Sold Including Milk Shakes Smooth</p>
                 </div>
-                <div className="three">
+                <div className="box-num three">
                     <p className='head'>99.99%</p>
                     <p className='desc'>Reliable Customer Support We Provide Great Experiences</p>
                 </div>

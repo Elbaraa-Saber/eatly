@@ -26,14 +26,15 @@
 .list-container .left svg{
     position: absolute;
 }
-.list {
+
+.list-container .list {
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
     text-align: center;
     gap: 60px;
 }
-.list div {
+.list .box-num {
     width: 263.7px;
     height: 108.8px;
 }

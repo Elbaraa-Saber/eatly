@@ -5,6 +5,7 @@ body {
   font-style: normal, italic;  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F9F9;
 }
 
 /* code {
