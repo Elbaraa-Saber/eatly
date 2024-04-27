@@ -1,6 +1,7 @@
 import '../css/navbar.css'
 import { PiForkKnife } from "react-icons/pi";
 import { RiKnifeLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 
 function Navbar (){
@@ -26,8 +27,8 @@ function Navbar (){
                         </ul>
                     </div>
                     <div className='enter'>
-                        <div className='login'>Login</div>
-                        <div className='sign'>Sign Up</div>
+                        <Link to='/signin' className='login'>Login</Link>
+                        <Link to='/signup' className='sign'>Sign Up</Link>
                     </div>
                 </div>
             </div>

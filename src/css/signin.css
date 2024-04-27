@@ -1,0 +1,159 @@
+.signin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    height: calc(100vh - 50px);
+}
+.left-in{
+    position: relative;
+    flex: 1;
+    padding: 50px 60px;
+}
+.left-in .logo{
+    position: absolute;
+    top: 32px;
+    left: 42px;
+}
+.left-in .info{
+    width: 388px;
+    height: fit-content;
+    margin: 0 auto;
+}
+.left-in h1{
+    font-family: Poppins;
+    font-size: 35.25px;
+    font-weight: 600;
+    line-height: 44.06px;
+    letter-spacing: -0.04em;
+    margin: 0;
+    text-align: center;
+}
+.left-in .accounts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: fit-content;
+    margin: 30px auto;
+}
+.left-in .accounts div{
+    width: 183.44px;
+    height: 63.37px;
+    border-radius: 13.34px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-in .accounts .google{
+    font-family: Poppins;
+    font-size: 31.13px;
+    font-weight: 600;
+    line-height: 43.58px;
+    letter-spacing: 2.8349571228027344px;
+    text-align: center;
+    color: #323142;
+}
+.left-in .or{
+    font-family: Poppins;
+    font-size: 20.01px;
+    font-weight: 500;
+    line-height: 30.02px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #005A6459;
+    text-align: center;
+}
+.left-in form{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 0 0 20px;
+}
+.left-in form input{
+    padding: 25px 40px;
+    border: none;
+    background: none;
+}
+.left-in form input:focus {
+    outline: none;
+}
+.left-in .sure{
+    font-family: Poppins;
+    font-size: 18.9px;
+    font-weight: 400;
+    line-height: 28.35px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #3E3E3E;
+    margin-top: 20px;
+    /* padding-bottom: 50px; */
+}
+.left-in .sure a{
+    color: #6C5FBC;
+    font-weight: bold;
+}
+.left-in .copy,
+.left-in .privecy{
+    position: absolute;
+    bottom: -30px;
+    color: #718096;
+}
+.left-in .copy{
+    right: 20px;
+}
+.left-in .enter {
+    padding: 0;
+    background-color: #6C5FBC;
+}
+.left-in .enter button{
+    color: white;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+    font-family: Poppins;
+    font-size: 17.79px;
+    font-weight: 600;
+    line-height: 26.68px;
+    letter-spacing: 0.03em;
+}
+
+
+.right-in {
+    padding: 100px 25px 0 25px;
+    width: 40%;
+    min-height: 100%;
+    background-color: #6C5FBC;
+    text-align: center;
+    color: white;
+} 
+.right-in img{
+    width: 500px;
+}
+.right-in .txt {
+    text-align: center;
+}
+.right-in h2{
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    text-align: center;
+    margin: 0;
+}
+.right-in p{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}

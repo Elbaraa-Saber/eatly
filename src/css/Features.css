@@ -8,22 +8,22 @@
     display: flex;
     justify-content: space-between;
 }
-.list-container .left{
+.list-container .left-icon{
     position: relative;
     left: 0;
 }
-.list-container .right{
+.list-container .right-icon{
     position: relative;
     right: 70px;
     /* transform: rotate(270deg); */
 }
-.list-container .right svg{
+.list-container .right-icon svg{
     position: absolute;
 }
-.list-container .right svg:first-of-type{
+.list-container .right-icon svg:first-of-type{
     right: -90px;
 }
-.list-container .left svg{
+.list-container .left-icon svg{
     position: absolute;
 }
 

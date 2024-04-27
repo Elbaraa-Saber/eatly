@@ -3,7 +3,7 @@ import '../css/Features.css'
 function Features (){
     return (
         <div className="list-container">
-            <div className='left'>
+            <div className='left-icon'>
                 <svg width="384" height="221" viewBox="0 0 384 221" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.2" d="M369.68 577.878C375.051 546.413 382.885 516.817 380.878 482.89C379.444 458.658 373.443 434.809 361.905 412.054C340.393 369.626 312.272 329.18 278.84 296.952C244.679 264.021 211.142 228.189 172.566 202.9C136.7 179.387 98.446 159.962 63.4785 134.41C4.88972 91.5978 -36.5779 23.2802 -71.7742 -42.2882C-90.3944 -76.9764 -108.862 -111.901 -126.689 -147.001C-137.875 -169.027 -147.273 -192.647 -161.028 -213.115" stroke="#A596FF" stroke-width="4.01667" stroke-linecap="round"/>
                 </svg>
@@ -29,7 +29,7 @@ function Features (){
             </div>
 
 
-            <div className='right'>
+            <div className='right-icon'>
                 <svg width="128" height="221" viewBox="0 0 128 221" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.2" d="M250.547 -80.8447C227.068 -78.6528 201.569 -78.3091 178.691 -73.183C156.305 -68.1671 132.729 -59.0673 113.033 -49.4564C76.737 -31.7454 58.1474 -6.95103 41.2821 22.6297C13.4496 71.4467 3.3729 122.078 2.93791 175.123C2.64995 210.239 3.99988 244.997 7.66528 279.998C8.78437 290.684 8.22504 302.9 16.0695 312.128" stroke="#A596FF" stroke-width="4.44874" stroke-linecap="round"/>
                 </svg>

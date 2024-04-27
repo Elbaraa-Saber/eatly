@@ -56,6 +56,24 @@ ul li {
 }
 ul a{
     color: black;
+    transition: 0.5s;
+    position: relative;
+}
+ul a::after{
+    transition: 0.5s;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: #6C5FBC;
+}
+ul a:hover::after{
+    width: 100%;
+}
+ul a:hover{
+    color: #6C5FBC;
 }
 .enter{
     display: flex;
@@ -63,9 +81,17 @@ ul a{
     text-align: center;
     gap: 11.14px;
 }
+.enter a{
+    cursor: pointer;
+}
 .login{
     font-size: 18px;
     padding: 17.83px 26.74px;
+    transition: 0.5s;
+}
+.login:hover{
+    color: #6C5FBC;
+    transform: translateY(-10px);
 }
 .sign{
     font-size: 18px;
@@ -74,4 +100,9 @@ ul a{
     padding: 17.83px 26.74px;
     background-color: #6C5FBC;
     border-radius: 17.83px;
+    transition: 0.5s;
+}
+.sign:hover{
+    background-color: #5343b1;
+    transform: scale(1.1);
 }

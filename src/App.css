@@ -8,3 +8,10 @@
 .headOfComp span{
     color: #6C5FBC;
 }
+
+::-webkit-input-placeholder{
+    color: #C2C3CB;
+}
+input:focus::-webkit-input-placeholder{
+    color: #6C5FBC;
+}

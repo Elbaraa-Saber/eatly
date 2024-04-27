@@ -1,0 +1,98 @@
+.comments {
+    padding: 100px 0;
+}
+.comments .container {
+    padding-right: 0;
+}
+.comments h2{
+    margin: 0px 0 75px 0;
+}
+.comments .boxes{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    align-items: flex-start;
+    position: relative;
+}
+.comments  .box{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 18px;
+    max-width: 400px;
+    box-shadow: 5.95px 71.35px 35.67px 0px #E5E5E5B2;
+
+}
+.comments .group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+    position: relative;
+}
+.comments .three {
+    transform: translateX(50px);
+}
+.comments .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comments .title .profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comments .profile h4{
+    font-family: Poppins;
+    font-size: 20.89px;
+    font-weight: 500;
+    line-height: 31.34px;
+    text-align: left;
+    color: #030314;
+}
+.comments .profile p{
+    font-family: Quicksand;
+    font-size: 16.71px;
+    font-weight: 500;
+    line-height: 26.12px;
+    text-align: left;
+    color: #5E5D5D;
+}
+.comments .title img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+}
+.comments .desc{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26.12px;
+    text-align: justified;
+    color: #636363;
+}
+
+.comments .progress {
+    position: absolute;
+    width: 90%;
+    height: 10px;
+    background-color: #dbd7f3;
+    bottom: -80px;
+    border-radius: 75px;
+}
+.comments .progress span{
+    width: 20%;
+    height: 10px;
+    border-radius: 75px;
+    background-color: #6C5FBC;
+    display: block;
+}
+
+.comments .stars{
+    margin-top: 20px;
+}
+.comments .stars svg{
+    margin-right: 5px;
+}
+

@@ -1,7 +1,7 @@
 .dishes{
-    padding: 40px 0 0 0;
+    padding: 100px 0;
     border-top: 1px solid #CBCBCB;
-    margin: 100px 0;
+    /* margin: 100px 0; */
     position: relative;
 }
 .dishesList{
@@ -10,13 +10,11 @@
     gap: 20px;
     padding: 50px 0;
 }
-.dishesList .box{
-    background-color: white;
-}
 .dishesList img{
     width: 150px;
 }
 .dishes .dishesList .box{
+    transition: 0.5s;
     height: fit-content;
     padding: 20px 25px;
     border-radius: 18px;
@@ -27,7 +25,10 @@
     position: relative;
     text-align: center;
 }
-
+.dishesList .box:hover{
+    transform: translateY(-15px);
+    box-shadow: 6.85px 82.18px 41.09px 0px rgb(0 0 0 / 10%);
+}
 .dishes .dishesList .heart{
     position: absolute;
     right: 10px;
@@ -120,6 +121,11 @@
     padding: 10px;
     background-color: #323142;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dishes .dishesList .buy svg:hover{
+    background-color: black;
 }
 
 .dishes .arrow{

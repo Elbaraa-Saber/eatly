@@ -12,7 +12,7 @@ function Hero(){
                     <path d="M30.5218 19.2191C28.3334 20.6222 25.9587 21.6906 23.3509 21.9971C18.1575 22.6072 12.7177 21.7974 8.77443 25.9997" stroke="#685BB8" stroke-width="2.65" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <div className='top-img'>
-                    <Dashboard title="Chicken Hell" status='On The Way' titme='3:09 PM' img={dish}/>
+                    <Dashboard title="Chicken Hell" status='On The Way' time='3:09 PM' img={dish}/>
                 </div>
                 <img className='main' src={dish} alt=''/>
                 <svg className='ellipse' width="422" height="424" viewBox="0 0 422 424" fill="none" xmlns="http://www.w3.org/2000/svg">

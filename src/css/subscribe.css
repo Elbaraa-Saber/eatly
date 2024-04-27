@@ -1,0 +1,81 @@
+.subscribe {
+    text-align: center;
+    padding: 100px 0;
+}
+.subscribe .background{
+    width: calc(100% - 96px);
+}
+.subscribe .photos{
+    position: relative;
+    background-image: url(../imgs/Rectangle\ 4170.png);
+    height: 200px;
+    width: calc(100% - 96px);
+    border-radius: 30px;
+    text-align: left;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.photos .info {
+    background-image: url(../imgs/Group\ 34845.png);
+    background-size: cover;
+}
+.photos .right-back{
+    background-size: cover;
+    flex-grow: 1;
+    background-image: url(../imgs/Group\ 34844.png);
+}
+.photos p{
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    /* line-height: 105px; */
+    text-align: center;
+    margin: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+.subscribe form {
+    box-shadow: 0px 7.25px 45.33px 0px #0000001A;
+    background-color: #F9F9F9;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.subscribe form input{
+    color: #878787;
+    border: none;
+    background: none;
+}
+form:focus-within { 
+    outline: 1px solid #6C5FBC; 
+}
+.subscribe form input:focus {
+    outline: none;
+}
+.subscribe form button{
+    border: none;
+    color: #F7F8FA;
+    background-color: #6C5FBC;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.subscribe .dish{
+    position: absolute;
+    width: 200px;
+    bottom: -90px;
+    right: 100px;
+}
+/* .photos .icons1,
+.photos .icons2{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.photos .icons1{
+    left: 0;
+}
+.photos .icons2{
+    right: 0;
+} */

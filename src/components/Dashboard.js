@@ -3,10 +3,10 @@ function Dashboard (props){
         <>
             <div>
                 <img src={props.img} alt=''/>
-                <div>
-                    <h3>{props.title}</h3>
+                <span>
+                    <h4>{props.title}</h4>
                     <p>{props.status}</p>
-                </div>
+                </span>
             </div>
             <span className='time'>{props.time}</span>
         </>

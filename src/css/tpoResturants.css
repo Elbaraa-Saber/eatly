@@ -1,5 +1,5 @@
 .resturants{
-    padding: 40px 0 0 0;
+    padding: 100px 0;
     border-top: 1px solid #CBCBCB;
     margin: 100px 0;
     position: relative;
@@ -39,7 +39,6 @@
     overflow: hidden;
     border: 1.25px solid #F4F4F6
 }
-
 .resturants .list .box .contain {
     padding: 10px 20px;
 }
@@ -49,10 +48,10 @@
     background-position: bottom;
 }
 .resturants .list .box .chicken{
-    background-image: url(../imgs/resturant1.jpeg);
+    background-image: url(../imgs/resturant11.jpeg);
 }
 .resturants .list .box .bread {
-    background-image: url(../imgs/resturant2.jpeg);
+    background-image: url(../imgs/resturant22.jpeg);
 }
 .resturants .type{
     font-family: Poppins;
@@ -75,14 +74,6 @@
     width: 200px;
     height: 200px;
 }
-/* .resturants .list .img{
-    background-image: url(../imgs/resturant1.jpeg);
-    width: 90px;
-    height: 200px;
-    background-size: cover;
-    transform: rotate3d( -130, 130, 0, 180deg);
-} */
-
 .resturants .list h4{
     font-family: Poppins;
     font-size: 18.34px;
@@ -113,7 +104,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-
+    
 }   
 .resturants .list .time_rate .rating{
     display: flex;
@@ -121,4 +112,12 @@
     gap: 5px;
     align-items: center;
     color: #8E97A6;
+}
+
+.resturants .box{
+    transition: 0.5s;
+}
+.resturants .box:hover{
+    transform: translateY(-15px);
+    box-shadow: 6px 71.35px 35.67px 2px  rgb(0 0 0 / 10%);
 }
