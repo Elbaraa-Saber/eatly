@@ -210,13 +210,8 @@
 }
 
 .hero .top-img img{
-    width: 73.58px;
+    border-radius: 16.41px;
     height: 81.12px;
-    top: 219.07px;
-    left: 1027.82px;
-    gap: 0px;
-    border-radius: 16.41px 0px 0px 0px;
-    opacity: 0px;    
 }
 .hero .top-img .time{
     position: absolute;
