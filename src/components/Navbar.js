@@ -1,6 +1,6 @@
 import '../css/navbar.css'
-import { PiForkKnife } from "react-icons/pi";
-import { RiKnifeLine } from "react-icons/ri";
+// import { PiForkKnife } from "react-icons/pi";
+// import { RiKnifeLine } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 
 

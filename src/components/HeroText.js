@@ -1,4 +1,4 @@
-import { RiStarSFill } from "react-icons/ri";
+// import { RiStarSFill } from "react-icons/ri";
 
 
 function HeroText (){
