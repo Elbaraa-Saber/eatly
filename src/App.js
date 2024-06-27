@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import ReactDOM from 'react-dom'
 
@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Page/>}/>
-        <Route path='/signup' element={<SignUp/>}/>
-        <Route path='/signin' element={<SignIn/>}/>
+        <Route path='/eatly/' element={<Page/>}/>
+        <Route path='/eatly/signup' element={<SignUp/>}/>
+        <Route path='eatly/signin' element={<SignIn/>}/>
       </Routes>
     </div>
   );

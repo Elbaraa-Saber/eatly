@@ -27,8 +27,8 @@ function Navbar (){
                         </ul>
                     </div>
                     <div className='enter'>
-                        <Link to='/signin' className='login'>Login</Link>
-                        <Link to='/signup' className='sign'>Sign Up</Link>
+                        <Link to='/eatly/signin' className='login'>Login</Link>
+                        <Link to='/eatly/signup' className='sign'>Sign Up</Link>
                     </div>
                 </div>
             </div>

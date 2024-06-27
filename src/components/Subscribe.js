@@ -1,8 +1,8 @@
-import backg from '../imgs/Rectangle 4170.png'
+// import backg from '../imgs/Rectangle 4170.png'
 import '../css/subscribe.css'
 import dish from '../imgs/Dish.png'
-import icon1 from '../imgs/Group 34845.png'
-import icon2 from '../imgs/Group 34844.png'
+// import icon1 from '../imgs/Group 34845.png'
+// import icon2 from '../imgs/Group 34844.png'
 function Subscribe (){
     return (
         <div className='container'>
