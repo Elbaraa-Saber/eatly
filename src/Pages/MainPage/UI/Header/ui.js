@@ -104,7 +104,7 @@ function Navbar(props) {
                 stroke-linecap="round"
                 />
             </svg>
-              <div className="links">
+              {/* <div className="links">
                 <ul>
                   <li>
                     <NavLink to="#">Menu</NavLink>
@@ -127,7 +127,7 @@ function Navbar(props) {
                 <NavLink to="/eatly/signup" className="sign">
                   Sign Up
                 </NavLink>
-              </div>
+              </div> */}
           </div>
           )}
         </div>

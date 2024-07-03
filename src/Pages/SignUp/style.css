@@ -13,8 +13,8 @@
 }
 .left-up .logo{
     position: absolute;
-    top: 50px;
-    left: 40px;
+    top: 32px;
+    left: 42px;
 }
 .left-up .info{
     width: 388px;
@@ -22,7 +22,7 @@
     margin: 0 auto;
 }
 .left-up h1{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 35.25px;
     font-weight: 600;
     line-height: 44.06px;
@@ -49,7 +49,7 @@
     justify-content: center;
 }
 .left-up .accounts .google{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 31.13px;
     font-weight: 600;
     line-height: 43.58px;
@@ -58,7 +58,7 @@
     color: #323142;
 }
 .left-up .or{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 20.01px;
     font-weight: 500;
     line-height: 30.02px;
@@ -77,7 +77,7 @@
     padding: 0 0 0 20px;
 }
 .left-up form input{
-    padding: 20px 40px;
+    padding: 25px 40px;
     border: none;
     background: none;
 }
@@ -101,7 +101,7 @@
 .left-up .copy,
 .left-up .privecy{
     position: absolute;
-    bottom: 10px;
+    bottom: -30px;
     color: #718096;
 }
 .left-up .copy{
@@ -114,7 +114,7 @@
 .left-up .enter button{
     color: white;
     width: 100%;
-    padding: 15px;
+    padding: 20px 20px;
     border-radius: 15px;
     border: none;
     background: none;
@@ -135,13 +135,14 @@
     color: white;
 } 
 .right-up img{
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 .right-up .txt {
     text-align: center;
 }
 .right-up h2{
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 40px;
     font-weight: 800;
     line-height: 44px;
@@ -149,10 +150,21 @@
     margin: 0;
 }
 .right-up p{
-    font-family: Manrope;
+    font-family: 'Manrope';
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0.20000000298023224px;
     text-align: center;
+}
+
+@media (max-width: 700px ){
+    .right-in{
+        display: none;
+    }
+    .left-in{
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+    }
 }

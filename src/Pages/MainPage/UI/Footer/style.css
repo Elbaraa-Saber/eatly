@@ -36,6 +36,22 @@
     width: 30%;
     align-items: center;
 }
+.footer__logo{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+.footer__brand{
+    font-family: 'Poppins';
+    font-size: 20.28px;
+    font-weight: 600;
+    line-height: 26.37px;
+    text-align: left;
+    color: #6C5FBC;
+}
+.footer__social svg:hover path{
+    fill: #6C5FBC;
+}
 /* .footer .social svg:last-of-type{
     color: #6C5FBC;
 }

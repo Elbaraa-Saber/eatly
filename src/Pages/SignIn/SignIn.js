@@ -44,7 +44,7 @@ function SignIn(){
                         <button type='submit'>Sign In</button>
                     </form>
                 </div>
-                <div className='sure'>Create A New Account? <Link to='/signup'>Sign Up</Link></div>
+                <div className='sure'>Create A New Account? <Link to='/eatly/signup'>Sign Up</Link></div>
                 
                     <div className='privecy'>Privacy Policy</div>
                     <div className='copy'>Copyright 2024</div>

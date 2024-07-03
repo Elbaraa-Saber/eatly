@@ -131,12 +131,17 @@
 }
 
 
-
 @media (max-width: 991px){
     .control{
         flex-direction: column;
     }
     .control__dashboard{
         margin: 0 auto 20px;
+    }
+    .control__leftSide h3{
+        text-align: center;
+    }
+    .control__rightSide{
+        margin: auto;
     }
 }
