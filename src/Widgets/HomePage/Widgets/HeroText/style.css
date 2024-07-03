@@ -1,6 +1,7 @@
 .heroText{
-    width: 568px;
+    max-width: 568px;
     margin-right: 37px;
+    width: 100%;
 }
 .heroText__numUse{
     align-items: center;
@@ -144,4 +145,27 @@
     line-height: 24px;
     color: #334155;
     text-align: left;
+}
+
+
+@media (max-width: 991px) {
+    .heroText{
+        text-align: center;
+    }
+    .heroText__numUse{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .heroText__messege{
+        text-align: center;
+    }
+    .heroText__goal{
+        text-align: center;
+        width: 100%;
+    }
+    .heroText__review{
+        justify-content: center;
+        align-items: center;
+    }
 }

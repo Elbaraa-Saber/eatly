@@ -2,11 +2,12 @@
     margin: 100px 0;
     background-color: #6155AE;
     color: white;
-    height: 220px;
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: fit-content;
 }
 .ourSuccess__leftIconx{
     position: relative;
@@ -32,4 +33,24 @@
     justify-content: space-between;
     text-align: center;
     gap: 60px;
+    height: 220px;
+}
+
+
+@media (max-width: 991px){
+    .ourSuccess__list{
+        flex-direction: column;
+        height: 100%;
+        padding: 0;
+    }
+    .ourSuccess__leftIconx svg{
+        transform: rotate(100deg) translate(75px, 85px);
+    }
+    .ourSuccess__rightIcons{
+        right: 70px;
+        transform: rotate(15deg) translateX(60px);
+    }
+    .ourSuccess__rightIcons svg{
+        bottom: 0;
+    }
 }

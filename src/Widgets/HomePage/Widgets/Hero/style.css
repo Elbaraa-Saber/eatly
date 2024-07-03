@@ -1,65 +1,10 @@
-.hero__mainPhoto{
-    position: relative;
-}
-.hero__main{
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    width: 435px;
-    height: 445px;
-    opacity: 0px;
+.hero__Img{
+    max-width: 550px;
+    width: 100%;
 }
 
-
-.hero__topImg{
-    display: flex;
-    z-index: 1000;
-    position: absolute;
-    align-items: center;
-    background-color: #FFFFFF;
-    width: 265px;
-    height: 89.45px;
-    border-radius: 17px;
-    box-shadow: -9.84px 12.3px 20.51px 0px #00000026;
-    Top: -50px;
-    right: 0;
-}
-
-/* .hero__topImg>div p:first-of-type{
-    font-family: 'Poppins';
-    font-size: 15.59px;
-    font-weight: 600;
-    line-height: 21.82px;
-    text-align: left;
-    color: #323142;    
-} */
-
-.hero__graph{
-    width: 207.28px;
-    height: 205.48px;
-    box-shadow: 13.41px -16.76px 27.93px 0px #00000026;
-    padding: 14px 0;
-    border-radius: 17px;
-    position: absolute;
-    bottom: -70px;
-    left: -100px;
-    background-color: white;
-}
-.hero__time {
-    display: flex;
-    gap: 7px;
-    justify-content: space-around;
-    margin-bottom: 30px;
-    padding: 0 14px;
-}
-.hero .time div{
-    border-radius: 7px;
-    font-family: 'Poppins';
-    font-size: 6.39px;
-    font-weight: 400;
-    line-height: 9.13px;
-    color: white;
-    text-align: center;
-    padding: 7px 10px;
-    background-color: #6C5FBC;
+@media (max-width: 991px) {
+    .hero{
+        margin: auto;
+    }
 }

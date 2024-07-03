@@ -96,3 +96,12 @@
     margin-right: 5px;
 }
 
+
+@media (max-width: 991px){
+    .comments__group{
+        display: none;
+    }
+    .comments__boxes{
+        justify-content: center;
+    }
+}

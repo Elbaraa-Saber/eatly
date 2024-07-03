@@ -1,7 +1,7 @@
-import dish from '../../../../imgs/Dish.png'
+import dish from '../../../../Shared/imgs/Dish.png'
 import Dashboard from '../../../../Shared/UI/DashBoard/ui';
 import './style.css';
-import FoodImg from '../../../../imgs/Food.png'
+import FoodImg from '../../../../Shared/imgs/Food.png'
 
 function Hero(){
     return(

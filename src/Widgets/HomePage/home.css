@@ -7,3 +7,13 @@
     align-items: center;
     margin-top: 100px;
 }
+
+@media (max-width: 991px){
+    .home{
+        height: 100%;
+    }
+    .home__info-home {
+        flex-direction: column;
+        gap: 100px;
+    }
+}

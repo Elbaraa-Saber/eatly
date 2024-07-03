@@ -1,5 +1,5 @@
 import "./subscribe.css";
-import dish from "../../imgs/Dish.png";
+import dish from "../../Shared/imgs/Dish.png";
 
 function Subscribe() {
   return (

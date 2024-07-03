@@ -1,6 +1,7 @@
 .listBox {
-    width: 263.7px;
+    max-width: 263.7px;
     height: 108.8px;
+    width: 100%;
 }
 .listBox__head{
     font-family: 'Public Sans';

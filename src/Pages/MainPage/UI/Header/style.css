@@ -1,4 +1,6 @@
-
+.navbar{
+    position: relative;
+}
 .info-nav{
     padding-top: 48px;
     display: flex;
@@ -105,4 +107,37 @@ ul a:hover{
 .sign:hover{
     background-color: #5343b1;
     transform: scale(1.1);
+}
+
+.header__none:hover .links {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    left: 0;
+}
+.header__none .links{
+    position: absolute;
+}
+.header__none .links ul{
+    padding: 0px 45px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: end;
+}
+.header__none .links ul a::after{
+    background-color: transparent;
+}
+.header__none .links ul a:hover::after{
+    background-color: transparent;
+}
+.header__none .links ul a{
+    color: #5343b1;
+    background-color: #CBCBCB;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.header__none .links,
+.header__none .enter{
+    display: none;
 }

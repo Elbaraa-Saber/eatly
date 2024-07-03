@@ -1,6 +1,6 @@
 import "./style.css";
-import rest1 from "../../imgs/resturant1.jpeg";
-import rest2 from "../../imgs/resturant2.jpeg";
+import rest1 from "../../Shared/imgs/resturant1.jpeg";
+import rest2 from "../../Shared/imgs/resturant2.jpeg";
 import Resturant from "../../Shared/UI/Resturant/ui";
 
 function TopResturants() {
@@ -27,7 +27,7 @@ function TopResturants() {
   return (
     <div className="container">
       <div className="topResturants">
-        <h2 className="topResturants__headOfComp">
+        <h2 className="headOfComp">
           Our Top <span>Restaurants</span>
         </h2>
         <div className="topResturants__list">

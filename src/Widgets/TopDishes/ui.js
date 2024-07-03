@@ -1,7 +1,7 @@
 import "./style.css";
-import dish1 from "../../imgs/Dish.png";
-import dish2 from "../../imgs/dish2.png";
-import dish3 from "../../imgs/dish3.png";
+import dish1 from "../../Shared/imgs/Dish.png";
+import dish2 from "../../Shared/imgs/dish2.png";
+import dish3 from "../../Shared/imgs/dish3.png";
 import Dish from "../../Shared/UI/Dish/ui";
 
 function TopDishes() {
@@ -50,7 +50,7 @@ function TopDishes() {
   return (
     <div className="container">
       <div className="topDishes">
-        <h2 className="topDishes__headOfComp">
+        <h2 className="headOfComp">
           Our Top <span>Dishes</span>
         </h2>
         <div className="topDishes__dishesList">

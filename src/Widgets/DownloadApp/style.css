@@ -96,3 +96,21 @@
         transform: translateX(10px);
     }
 }
+
+@media (max-width: 991px){
+    .downloadApp{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .downloadApp__text{
+        text-align: center;
+    }
+    .downloadApp__text h3 {
+        text-align: center;
+    }
+    .downloadApp__text ul{
+        text-align: center;
+    }
+}

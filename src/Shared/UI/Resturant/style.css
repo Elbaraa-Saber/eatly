@@ -18,10 +18,10 @@
     background-position: bottom;
 }
 .resturant__chicken{
-    background-image: url(../../../imgs/resturant1.jpeg);
+    background-image: url(../../imgs/resturant1.jpeg);
 }
 .resturant__bread {
-    background-image: url(../../../imgs/resturant22.jpeg);
+    background-image: url(../../imgs/resturant22.jpeg);
 }
 .resturant__type{
     font-family: 'Poppins';

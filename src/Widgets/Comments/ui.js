@@ -1,12 +1,12 @@
 import { StarIcon } from "../../Shared/Icons/StarIcon";
-import photo from "../../imgs/image134.png";
-import "./Customer.css";
+import photo from "../../Shared/imgs/image134.png";
+import "./style.css";
 
 function Customer() {
   return (
     <div className="comments">
       <div className="container comments__container">
-        <h2 className="comments__headOfComp">
+        <h2 className="headOfComp">
           Customer <span>Say</span>
         </h2>
         <div className="comments__boxes">

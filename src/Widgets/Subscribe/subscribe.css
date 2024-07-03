@@ -7,7 +7,7 @@
 }
 .subscribe .photos{
     position: relative;
-    background-image: url(../../imgs/Rectangle\ 4170.png);
+    background-image: url(../../Shared/imgs/Rectangle\ 4170.png);
     height: 200px;
     width: calc(100% - 96px);
     border-radius: 30px;
@@ -15,15 +15,16 @@
     padding: 0px 40px;
     display: flex;
     justify-content: space-between;
+    background-size: cover;
 }
 .photos .info {
-    background-image: url(../../imgs/Group\ 34845.png);
+    background-image: url(../../Shared/imgs/Group\ 34845.png);
     background-size: cover;
 }
 .photos .right-back{
     background-size: cover;
     flex-grow: 1;
-    background-image: url(../../imgs/Group\ 34844.png);
+    background-image: url(../../Shared/imgs/Group\ 34844.png);
 }
 .photos p{
     font-family: Poppins;
@@ -79,3 +80,23 @@ form:focus-within {
 .photos .icons2{
     right: 0;
 } */
+
+@media (max-width: 991px){
+    .subscribe .photos{
+        height: 300px;
+    }
+    .info-back{
+        width: 100%;
+        text-align: center;
+    }
+    .info-back p{
+        text-align: center;
+    }
+    .info-back form{
+        margin: auto;
+    }
+    .right-back img{
+        left: 50%;
+    transform: translateX(-50%);
+    }
+}

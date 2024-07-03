@@ -1,5 +1,5 @@
-import mobile from '../../imgs/mobile.png'
-import mobileScreen from '../../imgs/mobileScreen.png'
+import mobile from '../../Shared/imgs/mobile.png'
+import mobileScreen from '../../Shared/imgs/mobileScreen.png'
 import './style.css'
 
 function Download_app(){

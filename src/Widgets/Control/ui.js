@@ -1,8 +1,8 @@
 import Dashboard from "../../Shared/UI/DashBoard/ui";
 import Card from "../../Shared/UI/PurchasesCard/ui";
-import dish from "../../imgs/Dish.png";
-import dish2 from "../../imgs/dish2.png";
-import dish3 from "../../imgs/dish3.png";
+import dish from "../../Shared/imgs/Dish.png";
+import dish2 from "../../Shared/imgs/dish2.png";
+import dish3 from "../../Shared/imgs/dish3.png";
 import "./style.css";
 
 function Control() {
