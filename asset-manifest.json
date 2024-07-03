@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.4e6ad103.css",
-    "main.js": "/eatly/static/js/main.bc06e855.js",
+    "main.css": "/eatly/static/css/main.d5fdd859.css",
+    "main.js": "/eatly/static/js/main.1c156638.js",
     "static/js/453.a914f6a1.chunk.js": "/eatly/static/js/453.a914f6a1.chunk.js",
     "static/media/resturant2.jpeg": "/eatly/static/media/resturant2.21d98bca6bc05ba8736f.jpeg",
     "static/media/resturant1.jpeg": "/eatly/static/media/resturant1.e9bf610891c012c7ab10.jpeg",
     "static/media/dish2.png": "/eatly/static/media/dish2.dfb4a97c98ded4279da2.png",
     "static/media/dish3.png": "/eatly/static/media/dish3.fdced79281544a3e938e.png",
-    "static/media/resturant11.jpeg": "/eatly/static/media/resturant11.f1422c2b101b7176c10d.jpeg",
+    "static/media/Food.png": "/eatly/static/media/Food.36dd54da7739c99317ef.png",
     "static/media/resturant22.jpeg": "/eatly/static/media/resturant22.119558fb5dc89457892d.jpeg",
     "static/media/Group 162806.png": "/eatly/static/media/Group 162806.87aa9c72fb81b938501c.png",
     "static/media/mobileScreen.png": "/eatly/static/media/mobileScreen.881c9c4c49e916af9149.png",
@@ -16,12 +16,12 @@
     "static/media/Group 34844.png": "/eatly/static/media/Group 34844.2ada5c37f952a2ef80f6.png",
     "static/media/Group 34845.png": "/eatly/static/media/Group 34845.0a1fb51aa0e27847ed51.png",
     "index.html": "/eatly/index.html",
-    "main.4e6ad103.css.map": "/eatly/static/css/main.4e6ad103.css.map",
-    "main.bc06e855.js.map": "/eatly/static/js/main.bc06e855.js.map",
+    "main.d5fdd859.css.map": "/eatly/static/css/main.d5fdd859.css.map",
+    "main.1c156638.js.map": "/eatly/static/js/main.1c156638.js.map",
     "453.a914f6a1.chunk.js.map": "/eatly/static/js/453.a914f6a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e6ad103.css",
-    "static/js/main.bc06e855.js"
+    "static/css/main.d5fdd859.css",
+    "static/js/main.1c156638.js"
   ]
 }
