@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.d5fdd859.css",
+    "main.css": "/eatly/static/css/main.abf56118.css",
     "main.js": "/eatly/static/js/main.1c156638.js",
     "static/js/453.a914f6a1.chunk.js": "/eatly/static/js/453.a914f6a1.chunk.js",
     "static/media/resturant2.jpeg": "/eatly/static/media/resturant2.21d98bca6bc05ba8736f.jpeg",
@@ -16,12 +16,12 @@
     "static/media/Group 34844.png": "/eatly/static/media/Group 34844.2ada5c37f952a2ef80f6.png",
     "static/media/Group 34845.png": "/eatly/static/media/Group 34845.0a1fb51aa0e27847ed51.png",
     "index.html": "/eatly/index.html",
-    "main.d5fdd859.css.map": "/eatly/static/css/main.d5fdd859.css.map",
+    "main.abf56118.css.map": "/eatly/static/css/main.abf56118.css.map",
     "main.1c156638.js.map": "/eatly/static/js/main.1c156638.js.map",
     "453.a914f6a1.chunk.js.map": "/eatly/static/js/453.a914f6a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5fdd859.css",
+    "static/css/main.abf56118.css",
     "static/js/main.1c156638.js"
   ]
 }
