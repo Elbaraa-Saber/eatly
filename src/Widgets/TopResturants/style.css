@@ -1,0 +1,32 @@
+.topResturants{
+    padding: 100px 0;
+    border-top: 1px solid #CBCBCB;
+    margin: 100px 0;
+    position: relative;
+}
+.topResturants__arrow{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45.18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #ACADB9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.topResturants__arrow:hover{
+    margin-right: 20px;
+}
+.topResturants__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 50px 0;
+}

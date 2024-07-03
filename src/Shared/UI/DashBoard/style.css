@@ -1,0 +1,29 @@
+.dashBoard{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.dashBoard__img{
+    border-radius: 16.41px;
+    height: 81.12px;
+}
+.dashBoard__status{
+    font-family: 'Poppins';
+    font-size: 9.84px;
+    font-weight: 500;
+    line-height: 13.78px;
+    text-align: left;
+    color: #323142;
+}
+
+.dashBoard__time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 10.66px;
+    font-weight: 500;
+    line-height: 14.93px;
+    text-align: left;
+    color: #ACADB9;
+}

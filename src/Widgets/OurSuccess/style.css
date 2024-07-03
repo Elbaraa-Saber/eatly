@@ -1,0 +1,35 @@
+.ourSuccess{
+    margin: 100px 0;
+    background-color: #6155AE;
+    color: white;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.ourSuccess__leftIconx{
+    position: relative;
+    left: 0;
+}
+.ourSuccess__rightIcons{
+    position: relative;
+    right: 70px;
+}
+.ourSuccess__rightIcons svg{
+    position: absolute;
+}
+.ourSuccess__rightIcons svg:first-of-type{
+    right: -90px;
+}
+.ourSuccess__leftIconx svg{
+    position: absolute;
+}
+
+.ourSuccess__list {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 60px;
+}

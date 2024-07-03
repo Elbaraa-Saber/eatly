@@ -1,0 +1,21 @@
+.listBox {
+    width: 263.7px;
+    height: 108.8px;
+}
+.listBox__head{
+    font-family: 'Public Sans';
+    font-size: 43.2px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.listBox__desc{
+    font-family: 'Inter';
+    font-size: 14.4px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: center;
+    width: 260px;
+    color: #C5BFED;
+}

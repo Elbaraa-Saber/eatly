@@ -1,0 +1,66 @@
+.card{
+    padding: 10px 20px;
+    border: 2px solid #EDF2F7;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.card:last-child{
+    margin: 0;
+}
+.card__txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.card__title h4{
+    font-family: 'Manrope';
+    font-size: 18.85px;
+    font-weight: 800;
+    line-height: 28.27px;
+    letter-spacing: 0.6282353401184082px;
+    text-align: left;
+    color: #1A202C;
+    margin-bottom: 10px;
+}
+.card__title p{
+    font-family: 'Manrope';
+    font-size: 15.71px;
+    font-weight: 500;
+    line-height: 23.56px;
+    letter-spacing: 0.6282353401184082px;
+    text-align: left;
+    color: #A0AEC0;    
+}
+.card__progress{
+    width: 100%;
+    height: 10px;
+    border-radius: 78.53px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.card__progress-purple {
+    background-color: #dbd7f3;
+}
+.card__progress-purple span {
+    width: 80%;
+    background-color: #6C5FBC;
+}
+.card__progress-yellow {
+    background-color: #ffecc7;
+}
+.card__progress-yellow span {
+    background-color: #FBAD18;
+    width: 70%;
+}
+.card__progress span{
+    border-radius: 78.53px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+}
